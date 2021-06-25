@@ -5,13 +5,19 @@ title: Mi primer Artículo!
 
 Este es mi primer artículo
 
-##Sección 1
+## Sección 1
 
 blabla
 
-###Subsección 1
+### Subsección 1
 
----
+bla
+
+``` java
+int x=1;
+int y=2;
+int z=x+y;
+```
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
 
