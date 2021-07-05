@@ -11,7 +11,26 @@ layout: default
       <div class="entry">
         {{ post.excerpt }}
       </div>
-
+      
+    <div style="background-image: url('Imagenes/Fondo.jpg'); width: 100%; height: 250px;">
+        <div style="text-align:center;">
+            <table  style='margin-left: auto; margin-right: auto; margin-top: 0px; padding: 10px; size: auto; background: white;'>
+                <tr>
+                    <td><img  SRC="Imagenes/login.jpg"  WIDTH=150 HEIGHT=150></td>
+                    <td><img  SRC="Imagenes/Registro.jpg"  WIDTH=150 HEIGHT=150></td> 
+                    <td><img  SRC="Imagenes/ayuda.jpg"  WIDTH=150 HEIGHT=150></td>
+                    <td><img  SRC="Imagenes/Contactenos.jpeg"  WIDTH=150 HEIGHT=150></td>
+                </tr>
+                <tr>
+                    <td height="50"><a href='Login.jsp' a class="boton_personalizado"> Iniciar sesión </a></td>
+                    <td><a href='RegistroUsuario.jsp' a class="boton_personalizado"> Registrarse</a></td>
+                    <td><a href='Ayuda.jsp' a class="boton_personalizado">Ayuda</a></td>
+                    <td><a href='Contacto.jsp' a class="boton_personalizado"> Contactenos</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+      
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
