@@ -7,7 +7,7 @@ Este es mi primer artículo
 
 ## Sección 1
 
-blabla
+bla
 
 ### Subsección 1
 
